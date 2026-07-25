@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eliminación de Datos - Omnitel</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+            background: #f7f8fa;
+            color: #1a1a2e;
+            line-height: 1.7;
+        }
+        header {
+            background: #1a1a2e;
+            padding: 28px 0;
+            border-bottom: 3px solid #4f8ef7;
+        }
+        .header-inner {
+            max-width: 780px;
+            margin: 0 auto;
+            padding: 0 24px;
+            display: flex;
+            align-items: center;
+            gap: 14px;
+        }
+        .logo-mark {
+            width: 38px; height: 38px; background: #4f8ef7; border-radius: 8px;
+            display: flex; align-items: center; justify-content: center;
+            font-weight: 800; font-size: 18px; color: #fff; flex-shrink: 0;
+        }
+        .brand-name { color: #ffffff; font-size: 20px; font-weight: 700; }
+        .container { max-width: 780px; margin: 48px auto; padding: 0 24px 64px; }
+        .page-title { font-size: 28px; font-weight: 700; color: #1a1a2e; margin-bottom: 6px; }
+        .meta-info {
+            font-size: 13px; color: #6b7280; margin-bottom: 36px;
+            padding-bottom: 24px; border-bottom: 1px solid #e5e7eb;
+        }
+        h2 {
+            font-size: 16px; font-weight: 700; color: #1a1a2e;
+            margin: 32px 0 10px; padding-left: 12px; border-left: 3px solid #4f8ef7;
+        }
+        p { font-size: 15px; color: #374151; margin-bottom: 14px; }
+        .steps-box {
+            background: #ffffff; border: 1px solid #e5e7eb;
+            border-radius: 10px; padding: 24px 28px; margin: 20px 0;
+        }
+        .step { display: flex; gap: 16px; align-items: flex-start; margin-bottom: 18px; }
+        .step:last-child { margin-bottom: 0; }
+        .step-num {
+            width: 28px; height: 28px; background: #4f8ef7; border-radius: 50%;
+            display: flex; align-items: center; justify-content: center;
+            font-size: 13px; font-weight: 700; color: #fff; flex-shrink: 0; margin-top: 2px;
+        }
+        .step-text { font-size: 15px; color: #374151; }
+        .step-text strong { color: #1a1a2e; }
+        .contact-box {
+            background: #eff6ff; border: 1px solid #bfdbfe;
+            border-radius: 10px; padding: 20px 24px; margin-top: 36px;
+        }
+        .contact-box h2 { border-left: none; padding-left: 0; margin-top: 0; margin-bottom: 10px; }
+        .contact-box a { color: #2563eb; text-decoration: none; font-weight: 600; }
+        footer { text-align: center; font-size: 12px; color: #9ca3af; padding: 24px; border-top: 1px solid #e5e7eb; }
+    </style>
+</head>
+<body>
+
+<header>
+    <div class="header-inner">
+        <div class="logo-mark">O</div>
+        <span class="brand-name">Omnitel</span>
+    </div>
+</header>
+
+<div class="container">
+
+    <h1 class="page-title">Eliminación de Datos</h1>
+    <div class="meta-info">
+        Omnitel &nbsp;·&nbsp; Perú &nbsp;·&nbsp; Última actualización: julio de 2026
+    </div>
+
+    <p>
+        En Omnitel respetamos su derecho a controlar sus datos. Si desea solicitar la eliminación de la información asociada a su cuenta o al uso de nuestros servicios — incluyendo datos obtenidos mediante la integración con Facebook Pages — puede hacerlo siguiendo los pasos a continuación.
+    </p>
+
+    <h2>Cómo solicitar la eliminación</h2>
+
+    <div class="steps-box">
+        <div class="step">
+            <div class="step-num">1</div>
+            <div class="step-text">
+                Envíe un correo electrónico a <strong>desarrollo@omnitel.com</strong>
+            </div>
+        </div>
+        <div class="step">
+            <div class="step-num">2</div>
+            <div class="step-text">
+                En el asunto del mensaje escriba: <strong>Solicitud de eliminación de datos</strong>
+            </div>
+        </div>
+        <div class="step">
+            <div class="step-num">3</div>
+            <div class="step-text">
+                Incluya en el cuerpo del correo el nombre de la empresa o cuenta asociada y una descripción de los datos que desea eliminar, incluyendo las Facebook Pages vinculadas si aplica.
+            </div>
+        </div>
+    </div>
+
+    <h2>Plazo de respuesta</h2>
+    <p>
+        Recibirá una confirmación de recepción en un plazo de 48 horas. La eliminación efectiva de los datos se completará en un máximo de 30 días calendario desde la confirmación de la solicitud.
+    </p>
+
+    <h2>Alcance de la eliminación</h2>
+    <p>
+        La eliminación incluye todos los datos personales y de cuenta almacenados por Omnitel asociados al solicitante, incluyendo mensajes, configuraciones de páginas y tokens de acceso vinculados. Ciertos datos podrán conservarse temporalmente cuando así lo exija la legislación aplicable.
+    </p>
+
+    <div class="contact-box">
+        <h2>Contacto</h2>
+        <p>
+            Para consultas adicionales sobre el tratamiento de sus datos, puede escribirnos a:<br>
+            <a href="mailto:desarrollo@omnitel.com">desarrollo@omnitel.com</a>
+        </p>
+    </div>
+
+</div>
+
+<footer>
+    © 2026 Omnitel · Perú · Todos los derechos reservados
+</footer>
+
+</body>
+</html>
